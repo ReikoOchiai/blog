@@ -5,6 +5,7 @@
   margin: 0;
   font-family: "Montserrat";
   color: #333;
+  box-sizing: border-box;
 }
 .navbar {
   padding: 20px;
@@ -32,4 +33,42 @@
   max-width: 600px;
   margin: 40px auto;
   padding: 20px;
+}
+
+.home {
+  margin: 0 auto;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+h2 {
+  color: #333;
+}
+
+.blog-preview {
+  padding: 10px;
+  box-shadow: 3px 3px rgba(230, 230, 230, 0.5);
+  margin: 10px 0;
+}
+
+.blog-preview:hover {
+  transform: scale(1.03);
+  transition: 0.5s ease-in-out;
+  box-shadow: 3px 3px 3px 3px rgba(230, 230, 230, 0.5);
+}
+
+.blog-preview button {
+  background-color: rgba(230, 230, 230, 0.5);
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.blog-preview button:hover {
+  background-color: rgb(174, 173, 173);
+  transform: scale(1.1);
+  transition: 0.5s ease;
 }
